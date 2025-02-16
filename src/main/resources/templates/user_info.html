@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" >
+    <title>User info</title>
+</head>
+<body>
+<h2>User Info:</h2>
+<br>
+<br>
+
+<form  method="POST" action="/static">
+    <label for="name">Name</label>
+    <input name="name" type="text" id="name" >
+    </br>
+    <label for="last_name">Last_name</label>
+    <input name="last_name" type="text" id="last_name" >
+    </br>
+    <label for="email">Email</label>
+    <input name="email" type="text" id="email" >
+    </br>
+    <input type="submit" value="Save user"/>
+</form>
+
+</body>
+</html>
