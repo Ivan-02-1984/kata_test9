@@ -1,4 +1,4 @@
-package ru.buevich.kata_test9.entity.models;
+package ru.buevich.kata_test9.models;
 
 import jakarta.persistence.*;
 

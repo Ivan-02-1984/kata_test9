@@ -1,6 +1,6 @@
-package ru.buevich.kata_test9.entity.service;
+package ru.buevich.kata_test9.service;
 
-import ru.buevich.kata_test9.entity.models.User;
+import ru.buevich.kata_test9.models.User;
 import java.util.List;
 
 public interface UserService {

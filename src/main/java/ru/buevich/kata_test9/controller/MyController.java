@@ -6,13 +6,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import ru.buevich.kata_test9.entity.models.User;
-import ru.buevich.kata_test9.entity.service.UserService;
+import ru.buevich.kata_test9.models.User;
+import ru.buevich.kata_test9.service.UserService;
 import java.util.List;
 
 @Controller
 @RequestMapping("/")
 public class MyController {
+
     private final UserService userService;
 
     @Autowired

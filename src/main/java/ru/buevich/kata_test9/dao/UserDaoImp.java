@@ -1,9 +1,9 @@
-package ru.buevich.kata_test9.entity.dao;
+package ru.buevich.kata_test9.dao;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
-import ru.buevich.kata_test9.entity.models.User;
+import ru.buevich.kata_test9.models.User;
 import java.util.List;
 
 @Repository

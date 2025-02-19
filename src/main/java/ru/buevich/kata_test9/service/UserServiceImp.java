@@ -1,10 +1,10 @@
-package ru.buevich.kata_test9.entity.service;
+package ru.buevich.kata_test9.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import ru.buevich.kata_test9.entity.dao.UserDao;
-import ru.buevich.kata_test9.entity.models.User;
+import ru.buevich.kata_test9.dao.UserDao;
+import ru.buevich.kata_test9.models.User;
 import java.util.List;
 
 @Service
